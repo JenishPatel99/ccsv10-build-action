@@ -1,0 +1,6 @@
+# action.yml
+name: 'ccsv10 project build'
+description: 'Builds project for TI Hercules MCUs'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
