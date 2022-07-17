@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ..
+
 # Add repo (project) to ccs-workspace
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location /github/workspace/ex2_obc_software
 # compile all imported projects
