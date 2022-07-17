@@ -34,6 +34,7 @@ ls ~/github/workspace/ex2_obc_software
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location /home/runner/work/ex2_obc_software/ex2_obc_software
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location ex2_obc_software
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location /github/workspace/ex2_obc_software
+eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location /github/workspace/
 
 cd ~/
 echo "List main directory"
