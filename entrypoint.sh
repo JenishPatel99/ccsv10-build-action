@@ -3,7 +3,7 @@
 cd ..
 
 # Add repo (project) to ccs-workspace
-eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location /github/workspace/ex2_obc_software
+eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectImport -ccs.location ex2_obc_software
 # compile all imported projects
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectBuild -ccs.workspace -ccs.autoImport -ccs.listErrors
 
