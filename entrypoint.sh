@@ -2,6 +2,8 @@
 
 cd ..
 ls
+echo "Path #1"
+pwd
 
 echo "List ex2_obc_software"
 ls /home/runner/ex2_obc_software/ex2_obc_software/
@@ -16,6 +18,8 @@ eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projec
 
 cd ..
 ls
+echo "Path #2"
+pwd
 
 echo "List ex2_obc_software"
 ls /home/runner/ex2_obc_software/ex2_obc_software/
