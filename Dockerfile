@@ -1,4 +1,5 @@
-FROM jenu008/ti-ccsv10:latest # Use custom unofficial docker image
+# Use custom unofficial docker image
+FROM jenu008/ti-ccsv10:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
