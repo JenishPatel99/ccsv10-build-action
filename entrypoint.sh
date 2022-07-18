@@ -5,9 +5,9 @@ eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projec
 # compile all imported projects
 eclipse -noSplash -data ~/ccs-workspace -application com.ti.ccstudio.apps.projectBuild -ccs.workspace -ccs.autoImport -ccs.listErrors
 
-retcode=echo $?
+retcode=$?
 
-if [ retcode = 0 ]
+if [[ $retcode == 0 ]]
 then
 	exit 0
 else
